@@ -1,4 +1,4 @@
-package Oct.ex_16102024;
+package Oct.ex_16102024_UserInput;
 
 public class Conditions_Loop_Lab063 {
     public static void main(String[] args) {
