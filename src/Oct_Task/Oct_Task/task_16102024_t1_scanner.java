@@ -15,5 +15,6 @@ public class task_16102024_t1_scanner {
         System.out.println("Name: "+name);
         System.out.println("Age:" +age);
         System.out.println("Salary: " +salary);
+        sc.close();
     }
 }
