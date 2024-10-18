@@ -14,7 +14,11 @@ public class task_17102024_t2 {
         int side2=sc.nextInt();
         System.out.println("Enter side3-->");
         int side3=sc.nextInt();
-        if(side1==side2 && side2==side3)
+        if(side1<0 || side2<0 || side3 <0)
+        {
+            System.out.println("Invalid Input, please enter positive side lengths");
+        }
+        else if(side1==side2 && side2==side3 && side1==side3)
         {
             System.out.println("Triangle is Equilateral");
         }

@@ -17,26 +17,32 @@ public class task_17102024_t1 {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter Marks-->");
         int marks=sc.nextInt();
+        char grade='F';
         if(marks>=90 && marks<=100)
         {
-            System.out.println("A");
+            grade='A';
         }
         else if(marks>=80 && marks<=89)
         {
-            System.out.println("B");
+            grade='B';
         }
         else if(marks>=70 && marks<=79)
         {
-            System.out.println("C");
+            grade='C';
         }
         else if(marks>=60 && marks<=69)
         {
-            System.out.println("D");
+            grade='D';
         }
-        else if(marks>=0 && marks<=59)
+        else if(marks<0 || marks>100)
         {
-            System.out.println("F");
+            System.out.println("You are Out of Scope");
         }
+        else
+        {
+            grade='F';
+        }
+        System.out.println("Your Grade is -->" +grade);
         sc.close();
     }
 }
