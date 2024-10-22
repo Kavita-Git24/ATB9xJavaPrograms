@@ -9,6 +9,9 @@ public class Lab101 {
                 System.out.println("Even No->" +i);
                 continue;
             }
+
+
+
             System.out.println(i);
         }
     }

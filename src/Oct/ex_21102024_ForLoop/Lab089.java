@@ -5,6 +5,7 @@ public class Lab089 {
        /* for(int i=0;;i++){
             System.out.println(i);
         }*/
+
         //exit code 130(stop by yourself-kill) red button
         //exit code 0-successful
 

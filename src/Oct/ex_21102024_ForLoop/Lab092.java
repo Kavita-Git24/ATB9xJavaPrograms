@@ -10,6 +10,7 @@ public class Lab092 {
         {
             System.out.println(i);
         }*/
+
         for(char c='a';c<='z';c++)
         {
             System.out.println(c);

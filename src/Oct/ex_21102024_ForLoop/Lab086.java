@@ -5,6 +5,7 @@ public class Lab086 {
         for(int itera=0;itera<10;itera++){
             System.out.println(itera);
         }
+        
         for(int repeat=1;repeat<=10;repeat++){
             System.out.println(repeat);
         }

@@ -3,6 +3,7 @@ package Oct.ex_21102024_ForLoop;
 public class Lab084 {
     public static void main(String[] args) {
         //loop -here to perform a task which is repetative in nature
+
         System.out.println("1");
         System.out.println("2");
         System.out.println("3");
