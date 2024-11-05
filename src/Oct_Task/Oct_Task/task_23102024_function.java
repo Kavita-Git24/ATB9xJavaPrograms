@@ -33,6 +33,8 @@ public class task_23102024_function {
 
             result = Sub(a, b);
             System.out.println("Subtraction-> " + result);
+
+            sc.close();
         }
         else
         {
