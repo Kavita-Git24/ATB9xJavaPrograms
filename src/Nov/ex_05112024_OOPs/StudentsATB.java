@@ -1,0 +1,32 @@
+package Nov.ex_05112024_OOPs;
+//Class -> C ->StudentsATB
+public class StudentsATB {
+    //A->Attribute|data members |instance variables |Fields |member variables
+
+    String name;
+    int age;
+    int batch_no;
+    long phone_number;
+    boolean isMale;
+    String address;
+    boolean is_fees_paid;
+    String github_link;
+    String sid;
+    char grade;
+
+    //B ->Behaviour|methods|member functions
+
+    void study() {
+    }
+
+    void eat(int a) {
+    }
+
+    int walk() {
+        return 10;
+    }
+
+    int walk2(int a) {
+        return 10;
+    }
+}
