@@ -1,6 +1,4 @@
-package Nov.ex_15112021_Wrapper_Exception_Part2;
-
-import java.io.FileInputStream;
+package Nov.ex_15112024_Wrapper_Exception_Part2;
 
 public class Lab176_Exceptions {
     public static void main(String[] args) {
