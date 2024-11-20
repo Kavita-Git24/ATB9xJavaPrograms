@@ -30,6 +30,16 @@ public class Exception_handling_notepad
 		{
 			System.out.println(e.getMessage());
 		}
+		String s1 = "Nehal";
+		try
+		{
+			s1=null;
+			System.out.println(s1.trim());
+		}
+		catch(NullPointerException e)
+		{
+			System.out.println(e.getMessage());
+		}
 
 		finally
 		{
